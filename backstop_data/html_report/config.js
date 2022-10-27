@@ -1,0 +1,33 @@
+report({
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Time_tracker_0_document_0_desktop.png",
+        "test": "..\\bitmaps_test\\20221028-015133\\backstop_default_Time_tracker_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "backstop_default_Time_tracker_0_document_0_desktop.png",
+        "label": "Time tracker",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8080/#/employee?name=Volodymyr",
+        "referenceUrl": "",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -1148
+          },
+          "rawMisMatchPercentage": 3.896604220899963,
+          "misMatchPercentage": "3.90",
+          "analysisTime": 125
+        },
+        "diffImage": "..\\bitmaps_test\\20221028-015133\\failed_diff_backstop_default_Time_tracker_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "backstop_default"
+});
