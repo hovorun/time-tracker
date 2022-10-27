@@ -1,5 +1,4 @@
 import { shallowMount } from "@vue/test-utils";
-
 import { EmployeeSidebar } from "@/layout";
 
 describe("EmployeeSidebar", () => {

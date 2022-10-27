@@ -8,5 +8,6 @@ export interface WorkDay {
 
 export interface UserConfiguration {
   userName: string;
+  id?: number;
   config: WorkDay[];
 }

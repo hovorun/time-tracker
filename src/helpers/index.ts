@@ -7,5 +7,5 @@ export * from "./useCurrentYearAndMonth";
 export * from "./useCurrentDate";
 export * from "./useCalculateTotalTime";
 export * from "./usePluralizeFormatter";
-export * from "./useCreateMockedConfiguration";
+export * from "./useCreateConfiguration";
 export * from "./useAddTimes";

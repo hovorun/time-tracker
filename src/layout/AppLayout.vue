@@ -35,5 +35,6 @@ export default defineComponent({
 .AppLayout {
   padding-right: 40px;
   background: #f3f6f8;
+  min-height: calc(100vh - 76px);
 }
 </style>

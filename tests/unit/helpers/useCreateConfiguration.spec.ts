@@ -1,6 +1,6 @@
-import { useCreateMockedConfiguration } from "@/helpers";
+import { useCreateConfiguration } from "@/helpers";
 
-describe("useCreateMockedConfiguration", () => {
+describe("useCreateConfiguration", () => {
   it("It should create correct user config", () => {
     const mockedUserConfig = {
       config: [
@@ -208,6 +208,6 @@ describe("useCreateMockedConfiguration", () => {
       ],
       userName: "Volodymyr",
     };
-    expect(useCreateMockedConfiguration("Volodymyr")).toEqual(mockedUserConfig);
+    expect(useCreateConfiguration("Volodymyr")).toEqual(mockedUserConfig);
   });
 });

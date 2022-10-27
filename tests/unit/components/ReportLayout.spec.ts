@@ -3,9 +3,15 @@ import { ReportLayout } from "@/layout";
 import router from "@/router/router";
 
 describe("ReportLayout", () => {
+  window.scrollTo = jest.fn();
+
   const wrapper = shallowMount(ReportLayout, {
     global: {
       plugins: [router],
+    },
+    props: {
+      currentEmployeeName: "Volodymyr",
+      newEmployeeName: "TestEmployee",
     },
   });
 
